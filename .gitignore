@@ -1,0 +1,298 @@
+# Criado por https://www.toptal.com/developers/gitignore/api/reactnative
+# Edite em https://www.toptal.com/developers/gitignore?templates=reactnative
+
+### ReactNative ###
+# React Native Stack Base
+
+.expo
+__generated__
+
+### ReactNative.Android Stack ###
+# Arquivos de aplicativos criados
+* .apk
+* .aar
+* .ap_
+* .aab
+
+# Arquivos para ART / Dalvik VM
+* .dex
+
+# Arquivos de classe Java
+*.classe
+
+# Arquivos gerados
+bin /
+gen /
+Fora/
+# Remova o comentário da linha a seguir caso precise e não tenha os arquivos do tipo de versão de compilação em seu aplicativo
+# liberação/
+
+# Arquivos Gradle
+.gradle /
+Construir/
+
+# Arquivo de configuração local (caminho sdk, etc)
+local.properties
+
+# Pasta Proguard gerada pelo Eclipse
+proguard /
+
+# Arquivos de log
+*.registro
+
+# Arquivos temporários do editor de navegação do Android Studio
+.navegação/
+
+# Android Studio captura pasta
+captura /
+
+# IntelliJ
+* .iml
+.idea / workspace.xml
+.idea / tasks.xml
+.idea / gradle.xml
+.idea / assetWizardSettings.xml
+.idea / dicionários
+.idea / bibliotecas
+# Android Studio 3 no arquivo .gitignore.
+.idea / caches
+.idea / modules.xml
+# Comente a próxima linha se manter a posição dos elementos no Editor de Navegação for relevante para você
+.idea / navEditor.xml
+
+# Arquivos de armazenamento de chaves
+# Remova o comentário das linhas a seguir se não quiser fazer o check-in dos seus arquivos keystore.
+# *. jks
+# *. armazenamento de chaves
+
+# Pasta de compilação nativa externa gerada no Android Studio 2.2 e posterior
+.externalNativeBuild
+.cxx /
+
+# Serviços do Google (por exemplo, APIs ou Firebase)
+# google-services.json
+
+# Linha gratuita
+freeline.py
+Linha gratuita/
+freeline_project_description.json
+
+# fastlane
+fastlane / report.xml
+fastlane / Preview.html
+fastlane / screenshots
+fastlane / test_output
+fastlane / readme.md
+
+# Controle de versão
+vcs.xml
+
+# lint
+fiapos / intermediários /
+lint / gerado /
+lint / saídas /
+lint / tmp /
+# lint / reports /
+
+### ReactNative.Buck Stack ###
+buck-out /
+.buckconfig.local
+.buckd /
+.buckversion
+.fakebuckversion
+
+### ReactNative.Gradle Stack ###
+.gradle
+
+# Ignorar a configuração da GUI do Gradle
+gradle-app.setting
+
+# Evite ignorar o arquivo jar do wrapper Gradle (arquivos .jar geralmente são ignorados)
+! gradle-wrapper.jar
+
+# Cache de projeto
+.gradletasknamecache
+
+# # Trabalhe com https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle / wrapper / gradle-wrapper.properties
+
+### ReactNative.Linux Stack ###
+* ~
+
+# arquivos temporários que podem ser criados se um processo ainda tiver um identificador aberto de um arquivo excluído
+.fuse_hidden *
+
+# Preferências de diretório do KDE
+.diretório
+
+# Pasta de lixo do Linux que pode aparecer em qualquer partição ou disco
+.Lixo-*
+
+# .nfs arquivos são criados quando um arquivo aberto é removido, mas ainda está sendo acessado
+.nfs *
+
+### ReactNative.Node Stack ###
+# Histórico
+Histórico
+npm-debug.log *
+yarn-debug.log *
+yarn-error.log *
+lerna-debug.log *
+
+# Relatórios de diagnóstico (https://nodejs.org/api/report.html)
+relatório. [0-9] *. [0-9] *. [0-9] *. [0-9] *. json
+
+# Dados de tempo de execução
+pids
+* .pid
+*.semente
+* .pid.lock
+
+# Diretório para libs instrumentados gerados por jscoverage / JSCover
+lib-cov
+
+# Diretório de cobertura usado por ferramentas como Istambul
+cobertura
+* .lcov
+
+cobertura de teste # nyc
+.nyc_output
+
+# Armazenamento intermediário do Grunt (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunhido
+
+# Diretório de dependência do Bower (https://bower.io/)
+bower_components
+
+# configuração do node-waf
+.lock-wscript
+
+# Complementos binários compilados (https://nodejs.org/api/addons.html)
+construir / liberar
+
+# Diretórios de dependência
+node_modules /
+jspm_packages /
+
+# Arquivos de declaração TypeScript v1
+tipificações /
+
+# Cache TypeScript
+* .tsbuildinfo
+
+# Diretório de cache npm opcional
+.npm
+
+# Cache eslint opcional
+.eslintcache
+
+# Cache de micro-pacotes
+.rpt2_cache /
+.rts2_cache_cjs /
+.rts2_cache_es /
+.rts2_cache_umd /
+
+# Histórico REPL opcional
+.node_repl_history
+
+# Saída de 'npm pack'
+* .tgz
+
+# Arquivo Yarn Integrity
+.yarn-integridade
+
+# arquivo de variáveis ​​de ambiente dotenv
+.env
+.env.test
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+
+# Next.js build output
+.Próximo
+
+# Nuxt.js construir / gerar saída
+.nuxt
+dist
+
+# Arquivos Gatsby
+.cache /
+# Comente na linha pública se seu projeto usa Gatsby e não Next.js
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# public
+
+# saída de compilação vuepress
+.vuepress / dist
+
+# Diretórios sem servidor
+.serverless /
+
+# FuseBox cache
+.Caixa de Fusiveis/
+
+# Arquivos locais do DynamoDB
+.dynamodb /
+
+# Arquivo de porta TernJS
+.tern-port
+
+# Armazena versões de VSCode usadas para testar extensões de VSCode
+.vscode-test
+
+### ReactNative.Xcode Stack ###
+# Xcode
+#
+# contribuidores gitignore: lembre-se de atualizar Global / Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Configurações do Usuário
+xcuserdata /
+
+## compatibilidade com Xcode 8 e anteriores (ignorar não é necessário iniciar o Xcode 9)
+* .xcscmblueprint
+* .xccheckout
+
+## compatibilidade com Xcode 3 e anteriores (ignorar não é necessário iniciar o Xcode 4)
+DerivedData /
+* .movido de lado
+* .pbxuser
+! default.pbxuser
+* .mode1v3
+! default.mode1v3
+* .mode2v3
+! default.mode2v3
+* .perspectivev3
+! default.perspectivev3
+
+## Patch Gcc
+/*.gcno
+
+### ReactNative.macOS Stack ###
+# Geral
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# O ícone deve terminar com dois \ r
+Ícone
+
+
+# Miniaturas
+._ *
+
+# Arquivos que podem aparecer na raiz de um volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Diretórios potencialmente criados em compartilhamento AFP remoto
+.AppleDB
+.AppleDesktop
+Pasta de lixo da rede
+Itens Temporários
+.apdisk
+
+# Fim de https://www.toptal.com/developers/gitignore/api/reactnative
